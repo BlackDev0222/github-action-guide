@@ -1,0 +1,34 @@
+{
+  "name": "mern-sample-guide",
+  "version": "0.1.0",
+  "description": "MERN Stack Sample Guide for someone who want to be a senior",
+  "scripts": {
+    "dev": "concurrently \"npm run dev-server\" \"npm run dev-client\"",
+    "dev-server": "cd server & npm run start",
+    "dev-client": "cd client & npm run start",
+    "build": "concurrently \"npm run build-server\" \"npm run build-client\"",
+    "build-server": "cd server & npm run build",
+    "build-client": "cd client & npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperUltraExtraordinaryDev/mern-sample-guide.git"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "node",
+    "express",
+    "mongodb",
+    "unit-test",
+    "integration-test",
+    "e2e-test",
+    "continuous-integration",
+    "continuous-deployment",
+    "aws",
+    "docker"
+  ],
+  "author": "Steven Kolden Fish",
+  "license": "ISC",
+  "homepage": "https://github.com/SuperUltraExtraordinaryDev/mern-sample-guide#readme"
+}
